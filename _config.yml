@@ -1,0 +1,25 @@
+# Site settings
+title: LREVG. Music and Videogames.
+email: chuck@lrevg.com
+description: "LREVG, music & videogames."
+name: lrevg
+
+markdown: kramdown
+highlighter: rouge
+
+exclude: ['deploy.sh', 'Gemfile', 'Gemfile.lock']
+gems: [jekyll-assets, uglifier, jekyll-slim, slim]
+
+assets:
+  assets:
+    - "application.css"
+    - "*.svg"
+    - "*.woff"
+    - "*.woff2"
+    - "*.eot"
+    - "*.ttf"
+    - "*.js"
+    - "*.mp4"
+    - "*.png"
+    - "*.jpg"
+    - "*.gif"

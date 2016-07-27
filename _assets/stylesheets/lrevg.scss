@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.hide-on-mobile {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+body {
+  background: #000;
+  color: #e6e6e9;
+  // font-family: "ff-tisa-web-pro", "Georgia", serif;
+  font-family: "Arial", sans-serif;
+}
+a {
+  transition: color 0.5s ease;
+
+  color: #22c9f3;
+  text-decoration: none;
+
+  &:hover {
+    color: #1f9bc1;
+  }
+}
+hr {
+  border-color: #f0f0f0;
+}
+.brand {
+  display: block;
+  margin: 50px 0 24px;
+}
+.mission {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.nav-link-projects {
+  color: #e7e7e7;
+  display: block;
+  font-family: "soleil", sans-serif;
+  font-size: 20px;
+  margin: 68px 0 0 0;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #22c9f3;
+  }
+}
+.portfolio--container {
+  background: #f7f7f7;
+  padding: 60px 0;
+}
+.portfolio-category--title {
+  color: #232436;
+  font-family: "soleil", sans-serif;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.portfolio-category--title:first-child {
+  margin-top: 0;
+}
+.portfolio-piece--description {
+  margin-top: 14px;
+}
+.portfolio-piece--title {
+  font-family: "soleil", sans-serif;
+  text-transform: uppercase;
+}
+.portfolio-piece--img {
+  border: 10px solid #fff;
+}
+.footer {
+  background: #0a0a12;
+  color: #c2c7cE;
+  font-size: 20px;
+  padding: 60px 0;
+
+  a {
+    color: #92979E;
+
+    &:hover,
+    &:focus {
+      color: #22272E;
+    }
+  }
+}
+p.copyright  {
+  margin: 20px 0 10px;
+}
+
+@font-face {
+    font-family: 'si';
+    src: url(asset_path('socicon.eot'));
+    src: url(asset_path('socicon.eot?#iefix')) format('embedded-opentype'),
+         url(asset_path('socicon.woff')) format('woff'),
+         url(asset_path('socicon.ttf')) format('truetype'),
+         url(asset_path('socicon.svg#icomoonregular')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(asset_path('socicon.svg')) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+.soc li a {
+    transition: background-color 0.5s ease;
+
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 51px;
+    height: 51px;
+    line-height: 51px;
+    font-size: 28px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-right: 35px;
+    color: #ffffff;
+    background-color: none;
+}
+.soc a:hover {
+  color: #fff;
+    z-index: 2;
+}
+.soc-icon-last{
+    margin:0 !important;
+}
+.soc-twitter {
+    background-color: #4da7de;
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-facebook {
+    background-color: #3e5b98;
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-linkedin {
+    background-color: #3371b7;
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-twitter:hover {
+    background-color: #61bbf2;
+}
+.soc-facebook:hover {
+    background-color: #526fac;
+}
+.soc-linkedin:hover {
+    background-color: #4785cb;
+}
+.text-block-1 {
+  margin: 140px 0 0;
+}
+.text-block-2 {
+  margin-top: 0 !important;
+}
+.ship-animation {
+  background: transparent;
+  height: 200px;
+  margin-left: -50px;
+  margin-right: -50px;
+  padding: 0;
+}
+.button.button-huge {
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+  @media (min-width: 992px) {
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}

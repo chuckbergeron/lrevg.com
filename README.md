@@ -1,2 +1,4 @@
 # lrevg.com
-Codes for http://lrevg.com
+
+### TODOs
+* slim support

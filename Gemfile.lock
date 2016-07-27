@@ -1,0 +1,96 @@
+GIT
+  remote: git://github.com/jekyll/jekyll-assets.git
+  revision: 205ddb34bfc9b304d473fd7319dc568bb4b6091d
+  ref: master
+  specs:
+    jekyll-assets (2.2.6)
+      extras (~> 0.1)
+      fastimage (~> 2.0, >= 1.8)
+      jekyll (~> 3.1, >= 3.0)
+      pathutil (>= 0.8)
+      sprockets (~> 3.3)
+
+GIT
+  remote: git://github.com/kesha-antonov/jekyll-slim.git
+  revision: bd3bf8280945f2f61542181da8d0baaebf4948f5
+  specs:
+    jekyll-slim (0.10.0)
+      jekyll (~> 3.1)
+      slim
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.4.0)
+    colorator (0.1)
+    concurrent-ruby (1.0.2)
+    execjs (2.6.0)
+    extras (0.1.0)
+      forwardable-extended (~> 2.5)
+    fastimage (2.0.0)
+      addressable (~> 2)
+    ffi (1.9.10)
+    forwardable-extended (2.6.0)
+    jekyll (3.1.3)
+      colorator (~> 0.1)
+      jekyll-sass-converter (~> 1.0)
+      jekyll-watch (~> 1.1)
+      kramdown (~> 1.3)
+      liquid (~> 3.0)
+      mercenary (~> 0.3.3)
+      rouge (~> 1.7)
+      safe_yaml (~> 1.0)
+    jekyll-sass-converter (1.4.0)
+      sass (~> 3.4)
+    jekyll-watch (1.4.0)
+      listen (~> 3.0, < 3.1)
+    kramdown (1.11.1)
+    libv8 (3.16.14.15)
+    liquid (3.0.6)
+    listen (3.0.8)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+    mercenary (0.3.6)
+    pathutil (0.13.0)
+      forwardable-extended (~> 2.6)
+    rack (1.6.4)
+    rake (11.1.2)
+    rb-fsevent (0.9.7)
+    rb-inotify (0.9.7)
+      ffi (>= 0.5.0)
+    ref (2.0.0)
+    rouge (1.10.1)
+    safe_yaml (1.0.4)
+    sass (3.4.22)
+    slim (3.0.6)
+      temple (~> 0.7.3)
+      tilt (>= 1.3.3, < 2.1)
+    sprockets (3.6.0)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    stringex (2.6.0)
+    temple (0.7.6)
+    therubyracer (0.12.2)
+      libv8 (~> 3.16.14.0)
+      ref
+    tilt (2.0.4)
+    uglifier (3.0.0)
+      execjs (>= 0.3.0, < 3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll (~> 3.1)
+  jekyll-assets!
+  jekyll-slim!
+  kramdown
+  rake
+  rouge
+  sass
+  stringex
+  therubyracer
+  uglifier
+
+BUNDLED WITH
+   1.11.2
