@@ -12,7 +12,7 @@
   }
 }
 body {
-  background: #f2fafb;
+  background: #2c2f2f;
   color: #26282f;
   font-family: "pragmatica", "Arial", sans-serif;
   font-size: 17px;
@@ -30,22 +30,26 @@ a {
 hr {
   border-color: #f0f0f0;
 }
+.brand-and-mission {
+  background: #2c2f2f;
+  color: #a5a7a9;
+}
 .brand {
   display: block;
-  margin: 70px auto 0;
+  margin: 60px auto 0;
 }
 .brand img {
   margin: 0 auto;
 }
 .mission-content {
-  margin: 50px 0 100px 0;
+  margin: 40px 0 80px 0;
 }
 .mission {
-  color: #000;
+  color: white;
   font-family: "termina", "Arial", sans-serif;
   font-size: 22px;
   font-weight: 900;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 
   @media (max-width: 700px) {
