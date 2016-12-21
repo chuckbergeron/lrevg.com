@@ -12,10 +12,10 @@
   }
 }
 body {
-  background: #000;
-  color: #e6e6e9;
-  // font-family: "ff-tisa-web-pro", "Georgia", serif;
-  font-family: "Arial", sans-serif;
+  background: #f2fafb;
+  color: #26282f;
+  font-family: "pragmatica", "Arial", sans-serif;
+  font-size: 17px;
 }
 a {
   transition: color 0.5s ease;
@@ -32,49 +32,52 @@ hr {
 }
 .brand {
   display: block;
-  margin: 50px 0 24px;
+  margin: 70px auto 0;
+}
+.brand img {
+  margin: 0 auto;
+}
+.mission-content {
+  margin: 50px 0 100px 0;
 }
 .mission {
+  color: #000;
+  font-family: "termina", "Arial", sans-serif;
   font-size: 22px;
+  font-weight: 900;
   margin-bottom: 50px;
-}
-.nav-link-projects {
-  color: #e7e7e7;
-  display: block;
-  font-family: "soleil", sans-serif;
-  font-size: 20px;
-  margin: 68px 0 0 0;
   text-transform: uppercase;
 
-  &:hover {
-    color: #22c9f3;
+  @media (max-width: 700px) {
+    font-size: 18px;
   }
 }
-.portfolio--container {
-  background: #f7f7f7;
-  padding: 60px 0;
+.project--astervoid {
+  color: #fff;
+  padding-top: 200px;
+
+  @media (max-width: 550px) {
+    padding-top: 40px;
+  }
 }
-.portfolio-category--title {
-  color: #232436;
-  font-family: "soleil", sans-serif;
-  margin-top: 50px;
+.project--astervoid h3 {
+  font-family: "termina", "Arial", sans-serif;
   text-transform: uppercase;
 }
-.portfolio-category--title:first-child {
-  margin-top: 0;
-}
-.portfolio-piece--description {
-  margin-top: 14px;
-}
-.portfolio-piece--title {
-  font-family: "soleil", sans-serif;
-  text-transform: uppercase;
-}
-.portfolio-piece--img {
-  border: 10px solid #fff;
+.astervoid--bg-image {
+  background-image: url(asset_path('astervoid2000-screen09.jpg'));
+  background-position: center center;
+  background-size: cover;
+
+  @media (min-width: 550px) {
+    height: 600px;
+  }
+  @media (max-width: 550px) {
+    height: 400px;
+  }
 }
 .footer {
-  background: #0a0a12;
+  background: #fff;
   color: #c2c7cE;
   font-size: 20px;
   padding: 60px 0;
@@ -199,7 +202,11 @@ p.copyright  {
   margin-right: -50px;
   padding: 0;
 }
+.button {
+  font-size: 14px;
+}
 .button.button-huge {
+  font-size: 20px;
   padding-top: 10px;
   padding-bottom: 15px;
 
