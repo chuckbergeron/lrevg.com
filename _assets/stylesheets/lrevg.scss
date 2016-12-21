@@ -48,7 +48,6 @@ hr {
   color: white;
   font-family: "termina", "Arial", sans-serif;
   font-size: 22px;
-  font-weight: 900;
   margin-bottom: 20px;
   text-transform: uppercase;
 
@@ -80,11 +79,21 @@ hr {
     height: 400px;
   }
 }
+.project--indiepod {
+  background: #2c2f2f;
+  color: #aaa;
+  padding: 60px 0 40px;
+}
+.project--indiepod h3 {
+  color: #505050;
+  font-family: "termina", "Arial", sans-serif;
+  text-transform: uppercase;
+}
 .footer {
-  background: #fff;
+  background: #131415;
   color: #c2c7cE;
   font-size: 20px;
-  padding: 60px 0;
+  padding: 100px 0 60px 0;
 
   a {
     color: #92979E;
@@ -209,15 +218,8 @@ p.copyright  {
 .button {
   font-size: 14px;
 }
-.button.button-huge {
-  font-size: 20px;
-  padding-top: 10px;
-  padding-bottom: 15px;
-
-  @media (min-width: 992px) {
-    padding-top: 5px;
-    padding-bottom: 15px;
-  }
+.button:hover {
+  color: #aaa;
 }
 .text-left {
   text-align: left;
