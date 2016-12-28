@@ -28,10 +28,16 @@ a {
   }
 }
 hr {
-  border-color: #f0f0f0;
+  border-color: #d6d6d6;
+}
+strong {
+  color: #e6e6e6;
 }
 .brand-and-mission {
   background: #2c2f2f;
+  background-image: url(asset_path('LRE-VG-BACKGROUND.jpg'));
+  background-position: center center;
+  background-size: cover;
   color: #a5a7a9;
 }
 .brand {
@@ -45,7 +51,7 @@ hr {
   margin: 40px 0 80px 0;
 }
 .mission {
-  color: white;
+  color: #678;
   font-family: "termina", "Arial", sans-serif;
   font-size: 22px;
   margin-bottom: 20px;
