@@ -28,17 +28,15 @@ a {
   }
 }
 hr {
-  border-color: #d6d6d6;
+  border-color: #363636;
 }
 strong {
   color: #e6e6e6;
 }
 .brand-and-mission {
   background: #2c2f2f;
-  background-image: url(asset_path('LRE-VG-BACKGROUND.jpg'));
-  background-position: center center;
-  background-size: cover;
-  color: #a5a7a9;
+  background-image: url(asset_path('LRE-VG-BACKGROUND.png'));
+  color: #757779;
 }
 .brand {
   display: block;
@@ -48,10 +46,10 @@ strong {
   margin: 0 auto;
 }
 .mission-content {
-  margin: 40px 0 80px 0;
+  margin: 70px 0 80px 0;
 }
 .mission {
-  color: #678;
+  color: #eaeaea;
   font-family: "termina", "Arial", sans-serif;
   font-size: 22px;
   margin-bottom: 20px;
